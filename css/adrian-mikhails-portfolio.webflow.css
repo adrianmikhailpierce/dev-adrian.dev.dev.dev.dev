@@ -207,6 +207,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
+  padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -245,7 +246,7 @@ figcaption {
   display: flex;
   width: 100%;
   height: 100%;
-  padding-top: 100px;
+  padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1939,6 +1940,12 @@ figcaption {
 }
 
 .heading-4 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.heading-6 {
+  font-size: 35px;
   text-align: center;
 }
 
@@ -2049,15 +2056,15 @@ figcaption {
 }
 
 .heading-15 {
-  margin-top: 300px;
+  margin-top: 600px;
   font-size: 6vw;
-  text-align: center;
+  text-align: left;
 }
 
 .paragraph-4 {
   margin-bottom: 0px;
-  font-size: 2vw;
-  text-align: center;
+  font-size: 25px;
+  text-align: left;
 }
 
 .feature-section {
@@ -2132,7 +2139,7 @@ figcaption {
 
 .heading-17 {
   margin-top: 600px;
-  padding-top: 300px;
+  padding-top: 0px;
   text-align: left;
 }
 
@@ -2311,12 +2318,13 @@ figcaption {
 }
 
 .main-content-2 {
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .rich-text-block-2 {
   margin-top: 0px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -2352,6 +2360,9 @@ figcaption {
 }
 
 .paragraph-7 {
+  border: 1px solid #000;
+  font-size: 35px;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -2364,18 +2375,24 @@ figcaption {
 }
 
 .paragraph-10 {
-  margin-bottom: 0px;
-  font-size: 2vw;
-  text-align: center;
+  margin-bottom: 600px;
+  font-size: 25px;
+  text-align: left;
 }
 
 .heading-26 {
+  margin-top: 600px;
   font-size: 6vw;
-  text-align: center;
+  text-align: left;
 }
 
 .paragraph-11 {
-  text-align: center;
+  font-size: 24px;
+  text-align: left;
+}
+
+.paragraph-12 {
+  font-size: 24px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2385,12 +2402,25 @@ figcaption {
     margin-left: auto;
   }
 
+  .section.hero {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
   .container {
     max-width: 1280px;
   }
 
+  .container.main-hero-container {
+    padding-top: 0px;
+  }
+
   .heading-4 {
-    font-size: 60px;
+    font-size: 55px;
+  }
+
+  .heading-6 {
+    text-align: center;
   }
 
   .image-2.link {
@@ -2436,18 +2466,23 @@ figcaption {
   }
 
   .heading-15 {
+    margin-top: 600px;
     font-size: 6vw;
     text-align: left;
   }
 
   .paragraph-4 {
-    font-size: 2vw;
+    font-size: 35px;
     text-align: left;
   }
 
   .hero {
     margin-top: 300px;
     margin-bottom: 0px;
+  }
+
+  .heading-17 {
+    padding-top: 0px;
   }
 
   .main-content {
@@ -2491,6 +2526,7 @@ figcaption {
 
   .rich-text-block-2 {
     margin-top: 0px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -2498,16 +2534,57 @@ figcaption {
     margin-top: 600px;
   }
 
+  .link-2 {
+    text-align: left;
+  }
+
   .heading-23 {
-    text-align: center;
+    text-align: left;
   }
 
   .paragraph-5 {
-    text-align: center;
+    font-size: 30px;
+    text-align: left;
   }
 
   .heading-24 {
-    text-align: center;
+    text-align: left;
+  }
+
+  .paragraph-7 {
+    font-size: 35px;
+  }
+
+  .paragraph-8 {
+    font-size: 30px;
+  }
+
+  .paragraph-9 {
+    font-size: 30px;
+  }
+
+  .paragraph-10 {
+    margin-bottom: 600px;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .heading-26 {
+    margin-top: 600px;
+    text-align: left;
+  }
+
+  .paragraph-11 {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .paragraph-12 {
+    font-size: 32px;
+  }
+
+  .paragraph-13 {
+    font-size: 32px;
   }
 }
 
@@ -2622,7 +2699,7 @@ figcaption {
   }
 
   .heading-4 {
-    font-size: 57px;
+    font-size: 55px;
     font-weight: 700;
     text-align: center;
   }
@@ -2632,6 +2709,7 @@ figcaption {
   }
 
   .heading-6 {
+    font-size: 45px;
     font-weight: 400;
     text-align: center;
   }
@@ -2866,13 +2944,14 @@ figcaption {
   }
 
   .heading-15 {
+    margin-top: 600px;
     font-size: 6vw;
-    text-align: center;
+    text-align: left;
   }
 
   .paragraph-4 {
-    font-size: 2vw;
-    text-align: center;
+    font-size: 40px;
+    text-align: left;
   }
 
   .heading-16 {
@@ -3095,6 +3174,7 @@ figcaption {
   }
 
   .paragraph-5 {
+    font-size: 30px;
     text-align: left;
   }
 
@@ -3103,32 +3183,44 @@ figcaption {
   }
 
   .paragraph-7 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
   }
 
   .paragraph-8 {
+    font-size: 30px;
     text-align: left;
   }
 
   .paragraph-9 {
+    font-size: 30px;
     text-align: left;
   }
 
   .paragraph-10 {
     margin-bottom: 600px;
     font-size: 40px;
-    text-align: center;
+    text-align: left;
   }
 
   .heading-26 {
-    text-align: center;
+    margin-top: 600px;
+    text-align: left;
   }
 
   .paragraph-11 {
     margin-top: 0px;
-    font-size: 35px;
-    text-align: center;
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .paragraph-12 {
+    font-size: 36px;
+  }
+
+  .paragraph-13 {
+    margin-bottom: 0px;
+    font-size: 36px;
   }
 }
 
@@ -3369,6 +3461,10 @@ figcaption {
     padding-bottom: 1em;
   }
 
+  .heading-4 {
+    font-weight: 600;
+  }
+
   .image-4.link {
     -o-object-fit: cover;
     object-fit: cover;
@@ -3382,6 +3478,7 @@ figcaption {
   }
 
   .heading-15 {
+    margin-top: 300px;
     text-align: left;
   }
 
@@ -3390,7 +3487,7 @@ figcaption {
   }
 
   .heading-17 {
-    text-align: center;
+    text-align: left;
   }
 
   .heading-18 {
@@ -3443,7 +3540,7 @@ figcaption {
   }
 
   .heading-21 {
-    text-align: center;
+    text-align: left;
   }
 
   .column-11 {
@@ -3464,6 +3561,14 @@ figcaption {
 
   .heading-22 {
     margin-top: 300px;
+  }
+
+  .paragraph-10 {
+    margin-bottom: 300px;
+  }
+
+  .heading-26 {
+    margin-top: 600px;
   }
 }
 
@@ -3519,6 +3624,10 @@ figcaption {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .container.line-container {
+    margin-bottom: 0px;
   }
 
   .hero-picture {
@@ -3635,6 +3744,10 @@ figcaption {
     font-size: 20px;
   }
 
+  .horizontal-line {
+    margin-top: 0px;
+  }
+
   .post-item-list-container {
     -webkit-column-count: 1;
     column-count: 1;
@@ -3720,8 +3833,49 @@ figcaption {
     grid-template-columns: 1fr 1fr;
   }
 
+  .heading-4 {
+    margin-top: 150px;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .heading-6 {
+    margin-bottom: 0px;
+  }
+
+  .image-2.link {
+    position: static;
+    text-align: center;
+  }
+
+  .image-3.link {
+    position: static;
+    text-align: center;
+  }
+
+  .column {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .image-4.link {
+    position: static;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+
+  .column-2 {
+    margin-bottom: 100px;
+  }
+
+  .columns {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
   .gallery {
-    padding: 40px 20px;
+    padding: 40px 20px 0px;
   }
 
   .gallery-grid-container {
@@ -3734,6 +3888,15 @@ figcaption {
 
   .gallery-2 {
     padding: 40px 20px;
+  }
+
+  .heading-15 {
+    margin-top: 150px;
+    font-size: 6vw;
+  }
+
+  .paragraph-4 {
+    font-size: 20px;
   }
 
   .image-14 {
@@ -3775,7 +3938,8 @@ figcaption {
   }
 
   .heading-17 {
-    text-align: center;
+    font-size: 45px;
+    text-align: left;
   }
 
   .hero-2 {
@@ -3841,7 +4005,8 @@ figcaption {
   }
 
   .heading-21 {
-    text-align: center;
+    font-size: 25px;
+    text-align: left;
   }
 
   .cards-section {
@@ -3875,6 +4040,60 @@ figcaption {
   }
 
   .rich-text-block-2 {
+    text-align: center;
+  }
+
+  .heading-22 {
+    font-size: 45px;
+  }
+
+  .link-2 {
+    font-size: 45px;
+  }
+
+  .heading-24 {
+    font-size: 45px;
+  }
+
+  .paragraph-7 {
+    font-size: 20px;
+  }
+
+  .paragraph-8 {
+    font-size: 20px;
+  }
+
+  .paragraph-10 {
+    margin-bottom: 150px;
+    font-size: 20px;
+  }
+
+  .heading-26 {
+    font-size: 6vw;
+  }
+
+  .paragraph-11 {
+    font-size: 20px;
+  }
+
+  .paragraph-12 {
+    font-size: 20px;
+  }
+
+  .link-3 {
+    font-size: 23px;
+  }
+
+  .link-4 {
+    font-size: 30px;
+  }
+
+  .column-19 {
+    margin-bottom: 100px;
+  }
+
+  .column-20 {
+    margin-bottom: 100px;
     text-align: center;
   }
 }
@@ -4092,7 +4311,8 @@ figcaption {
 
   .heading-17 {
     margin-top: 300px;
-    text-align: center;
+    font-size: 40px;
+    text-align: left;
   }
 
   .heading-18 {
@@ -4108,7 +4328,8 @@ figcaption {
   }
 
   .heading-21 {
-    text-align: center;
+    font-size: 23px;
+    text-align: left;
   }
 
   .cards-section {
@@ -4148,6 +4369,35 @@ figcaption {
 
   .heading-22 {
     margin-top: 300px;
+    font-size: 40px;
+  }
+
+  .link-2 {
+    font-size: 40px;
+  }
+
+  .paragraph-5 {
+    font-size: 18px;
+  }
+
+  .heading-24 {
+    font-size: 40px;
+  }
+
+  .paragraph-8 {
+    font-size: 18px;
+  }
+
+  .paragraph-9 {
+    font-size: 18px;
+  }
+
+  .paragraph-11 {
+    font-size: 20px;
+  }
+
+  .link-3 {
+    font-size: 20px;
   }
 }
 
